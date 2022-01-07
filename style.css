@@ -8,47 +8,17 @@ body {
   max-width: 100vw;
   margin: 0;
   padding: 0;
-  justify-content: center;
 }
 
 .header {
-  flex: 0 1 auto;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #1f2937;
-}
-
-.hero {
-  display: flex;
-  justify-content: space-evenly;
-  background-color: #1f2937;
-  gap: 0px;
-  height: 350px;
-  align-items: center;
-}
-
-.hero-text h1 {
-  color: #f9faf8;
-  font-size: 48px;
-  font-weight: 900;
-  margin: 0;
-  padding: 0;
-}
-
-.hero-text p {
-  width: 600px;
-  color: #f9faf8;
-  font-size: 18px;
-  font-weight: 400;
-}
-
-.footer {
   background-color: #1f2937;
 }
 
 .logo {
-  width: 600px;
+  width: 200px;
   font-size: 32px;
   font-weight: 900;
   color: white;
@@ -75,6 +45,30 @@ ul {
   font-weight: 600px;
 }
 
+.hero {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  gap: 32px;
+  height: 350px;
+  align-items: center;
+}
+
+.hero-text h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-text p {
+  max-width: 600px;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: 400;
+}
+
 .hero img {
   width: 400px;
 }
@@ -86,4 +80,88 @@ ul {
   background-color: #3882f6;
   border-radius: 6px;
   border: 0;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9faf8;
+  gap: 0px;
+  padding: 20px 0px 40px 0px;
+}
+
+.info-text {
+  padding-bottom: 20px;
+}
+
+.info-imgs {
+  display: flex;
+  gap: 64px;
+}
+
+.sub-imgs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgray;
+  padding: 20px 0px 40px 0px;
+}
+
+.quote-text {
+  display: flex;
+  max-width: 500px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote-text p {
+  font-size: 18px;
+}
+
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
+  padding: 80px 0px 80px 0px;
+}
+
+.notif {
+  display: flex;
+  width: 800px;
+  height: 150px;
+  background-color: rgb(96, 192, 224);
+  border-radius: 20px;
+  align-items: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.reg-button button {
+  color: #fff;
+  font-weight: 600;
+  width: 80px;
+  height: 40px;
+  background-color: rgb(32, 132, 165);
+  border-color: #fff;
+  border-radius: 6px;
+  border: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #1f2937;
+  width: 100vw;
+  height: 50px;
 }
